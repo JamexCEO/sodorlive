@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sodor Live</title>
+    <link rel="icon" type="image/png" href="assets/sodor-live-favicon.png">
+    <link rel="apple-touch-icon" href="assets/sodor-live-favicon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="player-stage" aria-label="Sodor Live stream">
+        <div class="brand-row">
+          <div class="brand-lockup">
+            <img class="site-logo" src="assets/sodor-live-large.png" alt="Sodor Live">
+            <span class="alpha-badge" tabindex="0" aria-label="This website is currently in alpha stage. Most episodes are not available for broadcast yet. Episodes available: S1 E1-17">
+              Alpha
+              <span class="alpha-tooltip" role="tooltip">This website is currently in alpha stage. Most episodes are not available for broadcast.<br>Episodes available: S1 E1-15</span>
+            </span>
+          </div>
+          <div class="live-pill" aria-label="Live broadcast">
+            <span></span>
+            Live
+          </div>
+        </div>
+
+        <div class="video-frame">
+          <video id="episode-player" autoplay muted playsinline preload="metadata"></video>
+          <div id="empty-state" class="empty-state" hidden>
+            <strong>No episodes loaded</strong>
+            <span>Add videos to <code>episodes/</code> and update <code>episodes.json</code>.</span>
+          </div>
+          <div class="live-watermark" aria-hidden="true">Sodor Live</div>
+          <div class="fullscreen-now-playing" aria-hidden="true">
+            <p id="fullscreen-episode-kicker">Season -- - Episode --</p>
+            <strong id="fullscreen-episode-title">Please wait</strong>
+          </div>
+          <div class="custom-controls" aria-label="Video controls">
+            <div id="live-progress" class="live-progress" aria-label="Episode progress">
+              <div class="progress-track">
+                <div id="progress-fill" class="progress-fill"></div>
+                <div id="progress-playhead" class="progress-playhead">
+                  <span id="progress-current" class="progress-current">0:00</span>
+                </div>
+              </div>
+              <span id="progress-duration" class="progress-duration">0:00</span>
+            </div>
+            <div class="control-row">
+              <div class="control-status">
+                <span class="status-dot"></span>
+                Live Broadcast
+              </div>
+              <button id="mute-button" class="icon-button volume-button" type="button" aria-label="Unmute">🔇</button>
+              <input id="volume-slider" class="volume-slider" type="range" min="0" max="1" step="0.05" value="0" aria-label="Volume">
+              <button id="fullscreen-button" class="icon-button fullscreen-button" type="button" aria-label="Fullscreen" title="Fullscreen">⛶</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="info-sidebar" aria-label="Stream information">
+        <section class="now-playing-card">
+          <p class="eyebrow">Now Playing</p>
+          <p id="episode-kicker" class="episode-kicker">Loading Episodes...</p>
+          <h2 id="episode-title">Please wait</h2>
+          <div class="time-block">
+            <span>Started</span>
+            <strong id="episode-start">--:--</strong>
+          </div>
+        </section>
+
+        <section class="stat-card">
+          <span>You've Been Watching For</span>
+          <strong id="watch-time">0 Seconds</strong>
+        </section>
+        <section class="stat-card">
+          <span>Episodes You've Watched</span>
+          <strong id="episodes-watched">0</strong>
+        </section>
+        <section class="stat-card">
+          <span>Others Are Watching Right Now</span>
+          <strong id="viewer-count">--</strong>
+        </section>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

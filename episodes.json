@@ -1,0 +1,123 @@
+{
+  "episodes": [
+    {
+      "id": "s01e01",
+      "title": "Thomas & Gordon",
+      "season": 1,
+      "episode": 1,
+      "file": "episodes/s01e01.mp4"
+    },
+    {
+      "id": "s01e02",
+      "title": "Edward & Gordon",
+      "season": 1,
+      "episode": 2,
+      "file": "episodes/s01e02.mp4"
+    },
+    {
+      "id": "s01e03",
+      "title": "The Sad Story of Henry",
+      "season": 1,
+      "episode": 3,
+      "file": "episodes/s01e03.mp4"
+    },
+    {
+      "id": "s01e04",
+      "title": "Edward, Gordon, & Henry",
+      "season": 1,
+      "episode": 4,
+      "file": "episodes/s01e04.mp4"
+    },
+    {
+      "id": "s01e05",
+      "title": "Thomas' Train",
+      "season": 1,
+      "episode": 5,
+      "file": "episodes/s01e05.mp4"
+    },
+    {
+      "id": "s01e06",
+      "title": "Thomas & the Trucks",
+      "season": 1,
+      "episode": 6,
+      "file": "episodes/s01e06.mp4"
+    },
+    {
+      "id": "s01e07",
+      "title": "Thomas & the Breakdown Train",
+      "season": 1,
+      "episode": 7,
+      "file": "episodes/s01e07.mp4"
+    },
+    {
+      "id": "s01e08",
+      "title": "James & the Coaches",
+      "season": 1,
+      "episode": 8,
+      "file": "episodes/s01e08.mp4"
+    },
+    {
+      "id": "s01e09",
+      "title": "Troublesome Trucks",
+      "season": 1,
+      "episode": 9,
+      "file": "episodes/s01e09.mp4"
+    },
+    {
+      "id": "s01e10",
+      "title": "James & the Express",
+      "season": 1,
+      "episode": 10,
+      "file": "episodes/s01e10.mp4"
+    },
+    {
+      "id": "s01e11",
+      "title": "Thomas & the Guard",
+      "season": 1,
+      "episode": 10,
+      "file": "episodes/s01e11.mp4"
+    },
+    {
+      "id": "s01e12",
+      "title": "Thomas Goes Fishing",
+      "season": 1,
+      "episode": 12,
+      "file": "episodes/s01e12.mp4"
+    },
+    {
+      "id": "s01e13",
+      "title": "Thomas, Terence, & the Snow",
+      "season": 1,
+      "episode": 13,
+      "file": "episodes/s01e13.mp4"
+    },
+    {
+      "id": "s01e14",
+      "title": "Thomas & Bertie",
+      "season": 1,
+      "episode": 14,
+      "file": "episodes/s01e14.mp4"
+    },
+    {
+      "id": "s01e15",
+      "title": "Tenders & Turntables",
+      "season": 1,
+      "episode": 15,
+      "file": "episodes/s01e15.mp4"
+    },
+    {
+      "id": "s01e16",
+      "title": "Trouble in the Shed",
+      "season": 1,
+      "episode": 16,
+      "file": "episodes/s01e16.mp4"
+    },
+    {
+      "id": "s01e17",
+      "title": "Percy Runs Away",
+      "season": 1,
+      "episode": 17,
+      "file": "episodes/s01e17.mp4"
+    }
+  ]
+}
